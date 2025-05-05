@@ -1,89 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial;
-  font-size: 17px;
-}
-
-#myVideo {
-  max-inline-size: 100%;
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
-}
-
-.content {
-  position: fixed;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  width: 100%;
-  padding: 20px;
-}
-
-#myBtn {
-  width: 200px;
-  font-size: 18px;
-  padding: 10px;
-  border: none;
-  background: #000;
-  color: #fff;
-  cursor: pointer;
-}
-
-#myBtn:hover {
-  background: #ddd;
-  color: black;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mir Shakil</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div>
-    <a href="https://www.linkedin.com/in/mirshakilresvi">linkedin</a>
-    <a href="Resume of Mir Shakil Resvi.pdf">Resume</a>
-
-</div>
-    
-
-</body>
-<body>
-
-<video autoplay muted loop id="myVideo">
-  <source src="video.mp4" type="video/mp4">
-  Your browser does not support HTML5 video.
-</video>
-
-<div class="content">
-  <h1>Exploring</h1>
-  <p>This is THIS MIR SHAKIL RESVI.</p>
-  <a href="https://www.linkedin.com/in/mirshakilresvi">linkedin</a>
-    <a href="Resume of Mir Shakil Resvi.pdf">Resume</a>
-</div>
-
-<script>
-var video = document.getElementById("myVideo");
-var btn = document.getElementById("myBtn");
-
-function myFunction() {
-  if (video.paused) {
-    video.play();
-    btn.innerHTML = "Pause";
-  } else {
-    video.pause();
-    btn.innerHTML = "Play";
-  }
-}
-</script>
-
+    <nav>
+        <ul>
+            <li><a href="">About Me</a></li>
+            <li><a href="">About Me</a></li>
+            <li><a href="">About Me</a></li>
+            <li><a href="">About Me</a></li>
+        </ul>
+    </nav>
+   <h1 id="name">Mir Shakil Resvi</h1> 
+   <div id="span1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo magni omnis fugiat! Velit, dicta eum. Enim laudantium omnis quas rerum recusandae, nisi aliquam inventore culpa sapiente placeat soluta animi rem.</div>
+   <div id="div1">This live is getting hard day by day</div>
+   <script src="index.js"></script>
 </body>
 </html>

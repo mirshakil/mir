@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    background-image:url(cheradwip.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+nav{
+    background-color: white;
+}
+
+#span1{
+    color: darkblue;
+
+}
+#name{
+    font-size: 50px;
+    font: bolder;
+    font-style: oblique;
+
+}
