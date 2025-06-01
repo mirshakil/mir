@@ -16,6 +16,25 @@ nav{
     background-color: white;
 }
 
+.container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.right-paragraph {
+    width: 300px;
+    text-align: left;
+}
+.left-paragraph {
+    width: 400px;
+    text-align: left;
+}
+
+.container2 {
+    display: flex;
+    justify-content: flex-start;
+}
+
 #span1{
     color: darkblue;
 
